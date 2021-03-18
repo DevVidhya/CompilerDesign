@@ -1,0 +1,9 @@
+if (p != q) {
+    ans = a;
+} else if (l == m) {
+    ans = b;
+} else if (t == p) {
+    ans = k;
+} else {
+    ans = c;
+}

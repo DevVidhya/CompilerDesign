@@ -1,0 +1,31 @@
+for(j=0;j<10;) {
+    int i = 100;
+    for (; i >= 0; i--) {
+        ans = ans + 10;
+    }
+}
+VALID
+
+for(j=0 j<10;) {
+    int i = 100;
+    for (; i >= 0; i--) {
+        ans = ans + 10;
+    }
+}
+INVALID
+
+for(a=1; a<100;) {
+    for (i=50 ; i >= 0; i--) {
+        ans = ans + 10;
+    }
+    a = a + ans;
+}
+VALID
+
+for(t=0 t<5;) {
+    int k = 10;
+    for (; k >= 0; k--) {
+        a = a + 1;
+    }
+}
+INVALID
